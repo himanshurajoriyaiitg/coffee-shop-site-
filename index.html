@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coffee shop site </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+</head>
+<body>
+   
+<div class="container1">
+    <nav>
+        <div class="navwrapper">
+        <ul class="navbar">
+            <li id="coffee">☕coffee</li>
+            <li class="navcontenthide"><a href="#home">Home</a></li>
+            <li class="navcontenthide"><a href="#about">About</a></li>
+            <li class="navcontenthide"><a href="#menu">Menu</a></li>
+            <li class="navcontenthide"><a href="#container5">Testimonials</a></li>
+            <li class="navcontenthide"><a href="#container6">Gallery</a></li>
+            <li  class="navcontenthide"><a href="#container7">Contact us</a></li>
+           <li onclick=showcontent() id="bars"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#EFEFEF"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li> 
+        </ul>
+    </div>
+        <ul class="sidebar">
+            
+            <li onclick=hidecontent()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#EFFEE"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#container5">Testimonials</a></li>
+            <li><a href="#container6">Gallery</a></li>
+            <li><a href="#container7">Contact us</a></li>
+        </ul>
+    </nav>
+</div>
+
+<div class="container2">
+    <div class="section" id="home">
+        <div class="hero">
+            <div class="textcontent">
+                <p id="bestcoffee">Best Coffee</p>
+                <p id="heropara">Make your great day with our special coffee!</p>
+                <p id="welcomepara">welcome to our coffee paradise,Where every bean tells a story and every cup sparks joy.</p>
+                <div class="buttons">
+                    <a href="#" id="ordernow">order now</a>
+                    <a href="#contactus" id="contactus">contact us</a>
+                </div>
+            </div>
+            <div class="imagecontent"><img src=" images/coffee-hero-section.png" alt="img" id="coffeecup"></div>
+        </div>
+    </div>
+</div> 
+<div class="container3">
+    <section id="about">
+        <div class="wrapper1">
+            <div class="imgcontent"><img src="images/about-image.jpg" alt="img" id="aboutimg">
+                <div class="socialiconsabout">
+                    <a href="#facebook"><img src="images/facebook-brands-solid.svg" alt="img"></a>
+                    <a href="#instagram"><img src="images/instagram-brands-solid.svg" alt="img"></a>
+                    <a href="#twitter"><img src="images/twitter-brands-solid.svg" alt="img"></a>
+                </div></div>
+            <div class="textcontent">
+                <h1 id="aboutus">ABOUT US</h1>
+                <p id="aboutuspara">At coffee House in Berndorf, Germany.We pride ourselves on being a go-to destination for coffee lovers and conversation seekers alike.We're dedicated to provide an exceptional coffee experiance in a cozy and inviting atmosphere, Where guestes can relax,unwind and enjoy their time in comfort    </p>
+                <div class="socialicons">
+                    <a href="#facebook"><img src="images/facebook-brands-solid.svg" alt="img"></a>
+                    <a href="#instagram"><img src="images/instagram-brands-solid.svg" alt="img"></a>
+                    <a href="#twitter"><img src="images/twitter-brands-solid.svg" alt="img"></a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</div>  
+<div class="container4">
+    
+    <div class="section" id="menu">
+        <div class="heading"><h1>OUR MENU</h1></div>
+      <div class="cards">
+        <div class="card" >
+            <img src="images/hot-beverages.png" alt="img">
+            <p id="title">Hot Beverages</p>
+            <p id="description">Wide range of steming hot coffee to make you fresh and light </p>
+            <a href="%%%%" id="getnowbutton">Explore now</a>
+        </div>
+        <div class="card">
+            <img src="images/cold-beverages.png" alt="img">
+            <p id="title">Cold Beverages</p>
+            <p id="description">Creamy and Frothy cold coffee to make you cool </p>
+            <a href="%%%%" id="getnowbutton">Explore now</a>
+        </div>
+        <div class="card">
+            <img src="images/refreshment.png" alt="img">
+            <p id="title">Refreshment</p>
+            <p id="description">Fruit and icy refreshment drink to make feel fresh  </p>
+            <a href="%%%%" id="getnowbutton">Explore now</a>
+        </div>
+        <div class="card">
+            <img src="images/special-combo.png" alt="img">
+            <p id="title">Special Combos</p>
+            <p id="description">Your favorite eating and drinking combinations </p>
+            <a href="%%%%" id="getnowbutton">Explore now</a>
+        </div>
+        <div class="card">
+            <img src="images/desserts.png" alt="img">
+            <p id="title">Dessert</p>
+            <p id="description">Satiate your palate and take you on a culinary treat</p>
+            <a href="%%%%" id="getnowbutton">Explore now</a>
+        </div>
+        <div class="card">
+            <img src="images/burger-frenchfries.png" alt="img">
+            <p id="title">Burger & French Fries</p>
+            <p id="description">Quick bites to satisfy your small size hunger</p>
+            <a href="%%%%" id="getnowbutton">Explore now</a>
+        </div>
+      </div>
+    </div>
+</div>
+<div id="container5">
+    <div class="wrapper2">
+        <div class="testimonialheading">
+            <h1>Testimonials</h1>
+        </div>
+
+        
+          <div class="swiper">
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <img src="images/user-5.jpg" alt="img">
+
+                    <p id="name">Himanshu</p>
+                    <p id="feedback">"Great espresso blend! smooth and bold flavour.Fast sipping too!"</p>
+                </div>
+                <div class="swiper-slide"> <img src="images/user-1.jpg" alt="img">
+
+                    <p id="name">Sarah johnson</p>
+                    <p id="feedback">"Great espresso blend! smooth and bold flavour.Fast sipping too!"</p></div>
+                <div class="swiper-slide"> <img src="images/user-2.jpg" alt="img">
+
+                    <p id="name">James wilson</p>
+                    <p id="feedback">"Loved the french roast ,Perfectly balanced and rich.Will order again"</p></div>
+                <div class="swiper-slide"> <img src="images/user-3.jpg" alt="img">
+
+                    <p id="name">Kapil </p>
+                    <p id="feedback">"Can't belive pizza can be so amazing ,you are missing a lot if you do not order"</p></div>
+                <div class="swiper-slide"> <img src="images/user-4.jpg" alt="img">
+
+                    <p id="name">Arya stark</p>
+                    <p id="feedback">"burger is fantastic. I rate it a perfect ten"</p></div>
+                
+               
+              </div>
+        
+             <!-- If we need navigation buttons -->
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+ 
+         </div>
+      
+  </div>
+</div>
+<div id="container6">
+    <div class="wrapper3">
+        <div class="headinggallery"><h1>Gallery</h1></div>
+        <div class="gallerypics">
+          <div class="imagecontainers">  <img src="images/gallery-1.jpg" alt="img"></div>
+          <div class="imagecontainers">  <img src="images/gallery-2.jpg" alt="img"></div>
+          <div class="imagecontainers">  <img src="images/gallery-3.jpg" alt="img"></div>
+          <div class="imagecontainers">  <img src="images/gallery-4.jpg" alt="img"></div>
+          <div class="imagecontainers">  <img src="images/gallery-5.jpg" alt="img"></div>
+          <div class="imagecontainers"> <img src="images/gallery-6.jpg" alt="img"></div>
+        </div>
+    </div>
+</div>
+<div id="container7">
+    <div class="wrapper4">
+        <div class="headingofcontactus">
+            <h1>CONTACT US</h1>
+        </div>
+        <div class="contactcontent">
+            <div class="txtcontent">
+                <div class="box">
+                    <img src="images/location-crosshairs-solid.svg" alt="img"> 
+                    <p>123 Campsite Avenue,Wilderness,CA 98765</p>
+                </div>
+                <div class="box">
+                    <img src="images/envelope-regular.svg" alt="img">
+                    <p>info@coffeeshopwebsite.com</p>
+                </div>
+                <div class="box">
+                    <img src="images/phone-solid.svg" alt="img">
+                    <p>(123)456-78098</p>
+                </div>
+                <div class="box">
+                    <img src="images/clock-regular.svg" alt="img">
+                    <p>Monday-Friday: 9:00AM-5:00PM</p>
+                </div>
+                <div class="box"><img src="images/clock-regular.svg" alt="img">
+                    <p>Saturday: 10:00AM-3:00PM</p></div>
+                <div class="box"><img src="images/clock-regular.svg" alt="img">
+                    <p>Sunday:closed</p></div>
+                <div class="box">
+                    <img src="images/globe-solid.svg" alt="img">
+                    <p>www.coffeeislife.com</p>
+                </div>
+                <div class="box">
+                    <img src="instagram-brands-solid.svg" alt="img">
+                    <p>Joy_full_coffee_4_ever</p>
+                </div>
+            </div>
+            <div class="contentinput">
+               
+                <input type="text" id="nameforcontact" placeholder="your name">
+                <input type="email" id="email" placeholder="your email">
+                <input type="tel" id="phone" placeholder="your mobile no.">
+                <textarea name="txt01" id="txt01" placeholder="your message..."></textarea>
+                <button class="submitbutton" role="button">Submit</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="footer">
+    <div class="foot1">
+        <p>© 2024 Coffee Shop</p>
+    </div>
+    <div class="foot2">
+        <a href="#"><img src="images/facebook lite.svg" alt="img"></a>
+        <a href="#"><img src="images/insta lite.svg" alt="img"></a>
+        <a href="@"><img src="images/tweeter lite.svg" alt="img"></a>
+    </div>
+    <div class="foot3">
+        <a href="%">privacy policy</a>
+        <a href="))">refund policy</a>
+    </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
