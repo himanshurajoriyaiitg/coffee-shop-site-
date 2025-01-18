@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>coffee shop site </title>
+
+    <link rel="stylesheet" href="swiper-bundle.min.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
@@ -28,12 +30,12 @@
         <ul class="sidebar">
             
             <li onclick=hidecontent()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#EFFEE"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#menu">Menu</a></li>
-            <li><a href="#container5">Testimonials</a></li>
-            <li><a href="#container6">Gallery</a></li>
-            <li><a href="#container7">Contact us</a></li>
+            <li id="sidebaritem1"><a href="#home">Home</a></li>
+            <li id="sidebaritem2"><a href="#about">About</a></li>
+            <li id="sidebaritem3"><a href="#menu">Menu</a></li>
+            <li id="sidebaritem4"><a href="#container5">Testimonials</a></li>
+            <li id="sidebaritem5"><a href="#container6">Gallery</a></li>
+            <li id="sidebaritem6"><a href="#container7">Contact us</a></li>
         </ul>
     </nav>
 </div>
@@ -127,7 +129,7 @@
         </div>
 
         
-          <div class="swiper">
+          <div class="swiper mySwiper">
               <div class="swiper-wrapper">
                 <!-- Slides -->
                 <div class="swiper-slide">
@@ -157,9 +159,8 @@
               </div>
         
              <!-- If we need navigation buttons -->
-              <div class="swiper-pagination"></div>
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-button-next"></div>
+             <div class="swiper-pagination"></div>
+             
  
          </div>
       
@@ -241,8 +242,9 @@
         <a href="))">refund policy</a>
     </div>
 </div>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
+    <script src="swiper-bundle.min.js"></script>
 </body>
 </html>
 
