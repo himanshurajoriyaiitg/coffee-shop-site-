@@ -17,6 +17,9 @@
     font-family: "poppins";
     
 }
+html {
+    scroll-behavior:smooth;
+}
 body{
     width: 100vw;
     height: auto;
@@ -43,14 +46,15 @@ nav{
     align-items:flex-start;
     right: 0;
     top: 0;
-    background-color: rgba(255, 255, 255, 0.223);
-    height: 100vh;
-    width: 50vw;
+    background-color: rgba(128, 136, 198, 0.669);
+    height: 400px;
+    width: 200px;
     font-size: 1.5rem;
     color: rgb(58, 88, 88);
     z-index: 999;
     backdrop-filter: blur(10px);
     gap: 20px;
+    border-radius: 0px 0px 20px 20px;
 
 
 }
